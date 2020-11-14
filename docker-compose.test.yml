@@ -1,0 +1,11 @@
+---
+version: "3.7"
+
+services:
+  sut:
+    build: .
+    command: test.sh
+    volumes:
+      - ./test.sh:/usr/local/bin/test.sh
+      - ./:/aspell
+
