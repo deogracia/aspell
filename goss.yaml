@@ -1,0 +1,39 @@
+---
+file:
+  /usr/bin/aspell:
+    exists: true
+    mode: "0755"
+    size: 125024
+    owner: root
+    group: root
+    filetype: file
+    contains: []
+package:
+  aspell:
+    installed: true
+    versions:
+      - 0.60.8-r0
+  aspell-de:
+    installed: true
+    versions:
+      - 20030222-r1
+  aspell-en:
+    installed: true
+    versions:
+      - 2019.10.06-r0
+  aspell-fr:
+    installed: true
+    versions:
+      - 0.50_p3-r1
+  aspell-lang:
+    installed: true
+    versions:
+      - 0.60.8-r0
+  aspell-ru:
+    installed: true
+    versions:
+      - 0.99f7-r0
+  aspell-uk:
+    installed: true
+    versions:
+      - 1.4.0-r1
